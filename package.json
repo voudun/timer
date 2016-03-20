@@ -1,7 +1,7 @@
 {
-  "name": "reactjs-boilerplate",
+  "name": "Timer",
   "version": "2.4.0",
-  "description": "Quick setup for new React.js applications featuring Redux, hot–reloading, PostCSS, react-router and Mocha.",
+  "description": "React.js application timer for fitness training.",
   "dependencies": {
     "fontfaceobserver": "^1.5.1",
     "history": "1.17.0",
@@ -64,6 +64,6 @@
     "build": "npm run test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
     "serve": "cross-env NODE_ENV=production node server.prod.js"
   },
-  "author": "Max Stoiber",
+  "author": "Rutger-Jan Hoogerdijk",
   "license": "MIT"
 }
